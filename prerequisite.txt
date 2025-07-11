@@ -1,0 +1,7 @@
+docker run -d --hostname rabbit --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
+Access UI: http://localhost:15672
+Login: guest / guest
+
+
+Let’s use queue name: dead_letter_queue
